@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
-    "watch": "tsc -w",
-    "dev": "concurrently \"tsc --watch\" \"nodemon dist/src/index.js\"",
-    "build": "rm -rf /dist && tsc && node dist/src/index.js"
+    "watch": "npx tsc -w",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon dist/src/index.js\"",
+    "build": "rm -rf /dist && npx tsc && node dist/src/index.js"
   },
   "keywords": [],
   "author": "",
