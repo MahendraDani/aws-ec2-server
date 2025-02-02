@@ -1,0 +1,1 @@
+A simple Express server deployed on AWS EC2 instance using nginx for reverse proxy
